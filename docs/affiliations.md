@@ -1,5 +1,4 @@
-﻿
-##Affiliations - overview  
+# Affiliations - overview
 
 An affiliation in Healthbase implies a relationship between entities, HCOs (Healthcare Organizations) and individuals, HCPs (Healthcare professionals). An affiliation can be one of following types -  
 
@@ -27,7 +26,7 @@ Tied to each relationship is also a score (from 1-100) that indicates how strong
 Affiliations follow a hierarchical graph structure. As the figure below shows, relationships between HCOs and HCPs aren’t always simple. Healthbase captures the links along with the strength of these linkages. The algorithm also “rolls-up” every entity to a parent, based on certain criteria (e.g. ownership or clinical relationship)
 
 
-  
+
 
 ![Afffiliation graph](/images/affiliation_graph.png)
 
@@ -103,13 +102,13 @@ This table is a comprehensive list of all entity affiliation relationships lever
 
 
 ### 3. Parent Affiliations
-This table lists how strongly an HCP or HCO is connected to a parent. This table includes only details on the final parent and not the intermediaries. 
+This table lists how strongly an HCP or HCO is connected to a parent. This table includes only details on the final parent and not the intermediaries.
 
 
 And HCP or HCO could be connected to multiple parents, with strength of the link indicated by the score.  
 
 - HCO parent:  For an HCO, we derive the final parent with a score between 0-100, 100 being the strongest.
-- HCP parent: 
+- HCP parent:
     1. Specify  `node_1_healthbase_id`= HCP ID
     2. Take the `node_2_healthbase_id` ids for that HCP which have a high score (>75)
     3. Take the resultant set of HCOs which are strongly affiliated to the HCP. Now query the table with `node_1_healthbase_id`= HCO ID and it will give a set of `node_2_healthbase_id`s which are the final parents.

@@ -1,0 +1,27 @@
+body {
+  background: #333
+}
+.book-header {
+  display: none
+}
+.book {
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.navigation.navigation-next,
+.navigation.navigation-prev {
+  display: none;
+}
+
+.gitbook-link {
+    display: none !important;
+}
+
+#book-search-input {
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  border: 1px solid rgba(0,0,0,.07);
+  border-radius: 20px;
+}

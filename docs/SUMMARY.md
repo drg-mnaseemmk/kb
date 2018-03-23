@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 
-### Using the Healthbase relational database
+### Healthbase Relational Database
 * [Use cases](use_cases.md)
 * [Affiliations](affiliations.md)
 * [Diagnostic and Procedure Code Maps](dx_px_maps.md)
 
-### Getting started with the Healthbase graph database
+### Healthbase Graph Database
 * [Cypher](cypher.md)

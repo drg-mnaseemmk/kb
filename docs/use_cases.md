@@ -8,16 +8,19 @@ All tables in Healthbase are connected through a `healthbase_id`. The `entityloo
 
 * Use `entitylookup` table to find out the `healthbase_id` of the NPI/Provider ID.
    * Lookup by NPI
-      * `SELECT healthbase_id FROM entitylookup WHERE identifier='npi' AND identifier_type='n'`
+    ```
+    SELECT healthbase_id FROM entitylookup WHERE identifier='npi' AND identifier_type='n'```
    * Lookup by Medicare Provider ID
-      * `SELECT healthbase_id FROM entitylookup WHERE identifier='ProviderID' and identifier_type='p'`
+    ```
+    SELECT healthbase_id FROM entitylookup WHERE identifier='ProviderID' and identifier_type='p'```
    * We’ll get a `healthbase_id` based on the input and using this we can query affiliation tables.
    * The `parent_affiliations` table has the simplified form of affiliations between HCOs and HCPs with a score(0-100) which shows the strength of affiliation.
       * `node_1_healthbase_id` is child node.
       * `node_2_healthbase_id` is parent node.
    * Using the `healthbase_id` FROM the previous step, query parent_affiliations table with `node_1_healthbase_id` as input.
-      * `SELECT * FROM parent_affiliations WHERE node_1_healthbase_id='healthbase_id'`
-   * Depending on the number of claims made to or by the HCO, there could be multiple parents(node_2’s). 
+    ```
+    SELECT * FROM parent_affiliations WHERE node_1_healthbase_id='healthbase_id'```
+   * Depending on the number of claims made to or by the HCO, there could be multiple parents(node_2’s).
       * Node_2s with score > 80 are very strongly affiliated.
       * Node_2s with score between 40 and 80 are strongly affiliated.
       * Node_2s with score between 10 and 40 are weakly affiliated.
@@ -36,11 +39,13 @@ All tables in Healthbase are connected through a `healthbase_id`. The `entityloo
 **Output** : HCO’s that HCP is affiliated with parents that HCO’s are part of.  
 
 * Use `entitylookup` table to find out the `healthbase_id` of the NPI.
-   * `SELECT healthbase_id FROM entitylookup WHERE identifier='npi' AND identifier_type='n'`
+  ```
+  SELECT healthbase_id FROM entitylookup WHERE identifier='npi' AND identifier_type='n'```
 * We'll get a `healthbase_id` based on the input and using this we can query affiliation tables.
 * Using the `healthbase_id` FROM the previous step, query parent_affiliations table with `node_1_healthbase_id` as input.
-   * `SELECT * FROM parent_affiliations WHERE node_1_healthbase_id=’healthbase_id’`
-* Depending on the number of claims made by the HCP, there could be multiple HCOs(node_2s). 
+   ```
+   SELECT * FROM parent_affiliations WHERE node_1_healthbase_id=’healthbase_id’```
+* Depending on the number of claims made by the HCP, there could be multiple HCOs(node_2s).
    * Node_2s with score > 80 are very strongly affiliated.
    * Node_2s with score between 40 and 80 are strongly affiliated.
    * Node_2s with score between 10 and 40 are weakly affiliated.
@@ -57,10 +62,12 @@ All tables in Healthbase are connected through a `healthbase_id`. The `entityloo
 **Output** : List of `healthbase_id`’s which are part of the parent.  
 
 * Use `entitysummary` to find the `healthbase_id` of the health system.
-   * `SELECT healthbase_id FROM entitysummary WHERE name LIKE 'health system'`
+   ```
+   SELECT healthbase_id FROM entitysummary WHERE name LIKE 'health system'```
 * We'll get a `healthbase_id` based on the input and using this we can query affiliation tables.
 * Using the `healthbase_id` FROM the previous step, query parent_affiliations table with `node_2_healthbase_id` as input.
-   * `SELECT * FROM parent_affiliations WHERE node_2_healthbase_id='healthbase_id'`
+   ```
+   SELECT * FROM parent_affiliations WHERE node_2_healthbase_id='healthbase_id'```
 * Depending on the structure and influence of the health system, there could be multiple HCOs (node_1s)
    * Node_1s with score > 80 are very strongly affiliated.
    * Node_1s with score between 40 and 80 are strongly affiliated.
@@ -69,7 +76,8 @@ All tables in Healthbase are connected through a `healthbase_id`. The `entityloo
    * Depending on the requirements, we can chose the cut off score.
 * We'll have a list of HCOs which are affiliated to the health system.
 * If we need HCPs also of the health system, then take these HCO `healthbase_id`’s and parent_affiliations table with node_2 = HCO's `healthbase_id`.
-   * `SELECT * FROM parent_affiliations WHERE node_2_healthbase_id=’HCO healthbase_id’`
+   ```
+   SELECT * FROM parent_affiliations WHERE node_2_healthbase_id=’HCO healthbase_id’```
 * We'll have a list of HCPs which are part of the HCOs
 
 ![Use case example 3](/images/use_case_3.png)

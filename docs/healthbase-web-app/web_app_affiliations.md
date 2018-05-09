@@ -13,6 +13,8 @@ Affiliation relationship is derived from the following sources:
 
 
 Affiliations follow a hierarchical graph structure. As the figure below shows, relationships between HCOs and HCPs aren't always simple. Healthbase captures the links along with the strength of these linkages. 
+
+![Hierarchy](https://raw.githubusercontent.com/CompileInc/healthbase-knowledge-base/master/docs/images/Hierarchy.png)
   
 The algorithm also “rolls-up” every entity to a parent, based on certain criteria (e.g. ownership or clinical relationship)
 

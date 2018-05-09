@@ -68,7 +68,7 @@ All tables in Healthbase are connected through a `healthbase_id`. The `entityloo
   * Depending on the requirements, we can chose the cut off score.
 * Once we have a list of HCOs a HCP is affiliated with, use the HCOs `healthbase_id`’s to query the same table to get the parents of the HCOs.
 
-![Use case example \(1&amp;2\)](https://github.com/compileinc/healthbase/tree/d6d02d52ed8faf22fbe7dbe09ed56380d60fba31/images/use_case_1_2.png)
+![Use case example \(1&amp;2\)](https://raw.githubusercontent.com/CompileInc/healthbase-knowledge-base/master/docs/images/use_case_1_2.png)
 
 ## Identify all descendants of a final parent
 
@@ -104,5 +104,4 @@ All tables in Healthbase are connected through a `healthbase_id`. The `entityloo
 
 * We'll have a list of HCPs which are part of the HCOs
 
-![Use case example 3](https://github.com/compileinc/healthbase/tree/d6d02d52ed8faf22fbe7dbe09ed56380d60fba31/images/use_case_3.png)
-
+![Use case example 3](https://raw.githubusercontent.com/CompileInc/healthbase-knowledge-base/master/docs/images/use_case_3.png)

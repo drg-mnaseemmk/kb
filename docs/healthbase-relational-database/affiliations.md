@@ -21,7 +21,7 @@ Tied to each relationship is also a score \(from 1-100\) that indicates how stro
 
 Affiliations follow a hierarchical graph structure. As the figure below shows, relationships between HCOs and HCPs aren’t always simple. Healthbase captures the links along with the strength of these linkages. The algorithm also “rolls-up” every entity to a parent, based on certain criteria \(e.g. ownership or clinical relationship\)
 
-![Afffiliation graph](https://github.com/compileinc/healthbase/tree/d6d02d52ed8faf22fbe7dbe09ed56380d60fba31/images/affiliation_graph.png)
+![Afffiliation graph](https://raw.githubusercontent.com/CompileInc/healthbase-knowledge-base/master/docs/images/affiliation_graph.png)
 
 If you flatten this out as links, it looks like the table below. Healthbase’s affiliations tables are based on this flattened link structure
 

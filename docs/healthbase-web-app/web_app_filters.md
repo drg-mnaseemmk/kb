@@ -6,6 +6,7 @@ Healthbase's web app allows you to segment HCOs (Healthcare Organizations) and H
 ## Health system listing page
 In the [health system listing](https://app.gethealthbase.com/explore/healthsystem/) page, you'll find the following filters:
 
+![Filters](https://raw.githubusercontent.com/CompileInc/healthbase-knowledge-base/master/docs/images/HS_listing_filters.png)
 
 1. **Final Parent**: This filter limits the listing to only the top-level or parent health systems. It does not display any of the intermediary health systems.
 2. **Ownership**: A multiselect filter to identify health systems based on their ownership profile, i.e, not for profit, private (unlisted), private (listed) etc.

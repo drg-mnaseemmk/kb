@@ -9,3 +9,8 @@
 
 ### Healthbase Graph Database
 * [Cypher](cypher.md)
+
+### Healthbase Web App
+* [Filters](web_app_filters.md)
+* [Score](web_app_score.md)
+* [Affiliations](web_app_affiliations.md)

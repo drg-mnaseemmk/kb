@@ -7,7 +7,7 @@ Affiliation relationship is derived from the following sources:
  * Regulatory filings
  * Tax filings
  * Deep web crawls 
- * + many more
+ * \+ many more
 
 
 

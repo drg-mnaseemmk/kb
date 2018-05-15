@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Entity Types](entity_types.md)
 
 ## Healthbase Relational Database
 

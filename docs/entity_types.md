@@ -1,4 +1,6 @@
-﻿## Health System
+# Entity Types
+
+## Health System
 Healthbase defines health systems as a legal corporation owning at least one hospital and at least one other facility of any type.  Health systems can own other health systems, making the distinction between a 'Top Level Parent' and an 'Intermediary' health system.  
 Health System affiliations are derived from IRS filings (for non-profit health systems), SEC filings (publicly listed systems), State regulatory filings (State/County/City owned health systems), or secondary research from Healthbase analysts.  
 
@@ -35,5 +37,7 @@ On the provider side, again ACO contracting partners can be quite diverse.  Sing
 Healthbase has an expansive definition of health care practitioner.  Any individual with an NPI who meets the following criteria is included within Healthbase:
   * Individual has submitted medical claims in the past 6 months represented in DRG's proprietary claims database (covers approx. 70% of the Commercial, Managed Medicare, and Managed Medicaid activity in the US).
   * Individual has submitted Medicare part A or B claims to CMS in the past year.
-  * Individual is approved to have Medicare part A or B claims submitted on their behalf by another organization per the CMS PECOS file.
+  * Individual is approved to have Medicare part A or B claims submitted on their behalf by another organization per the CMS PECOS file.  
+
+
 Typically this means that Healthbase tracks not only MDs/DOs, but also nurse practitioners, physician assistants, and other care givers approved by private insurers to be reimbursed for care like chiropractors or rehab specialists.

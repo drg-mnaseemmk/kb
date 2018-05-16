@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Entity Types](entity_types.md)
 
 ## Healthbase Relational Database
 
@@ -14,6 +13,7 @@
 * [Cypher](healthbase-graph-database/cypher.md)
 
 ### Healthbase Web App
+* [Entity Types](healthbase-web-app/entity_types.md)
 * [Filters](healthbase-web-app/web_app_filters.md)
 * [Score](healthbase-web-app/web_app_score.md)
 * [Affiliations](healthbase-web-app/web_app_affiliations.md)

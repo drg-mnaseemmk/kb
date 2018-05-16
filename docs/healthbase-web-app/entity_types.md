@@ -2,11 +2,13 @@
 
 ## Health System
 Healthbase defines health systems as a legal corporation owning at least one hospital and at least one other facility of any type.  Health systems can own other health systems, making the distinction between a 'Top Level Parent' and an 'Intermediary' health system.  
+
 Health System affiliations are derived from IRS filings (for non-profit health systems), SEC filings (publicly listed systems), State regulatory filings (State/County/City owned health systems), or secondary research from Healthbase analysts.  
 
 
 ## Physician Group
 Physician groups are legal corporations made of groups of physicians, either multi-specialty or single-specialty.  Healthbase represents only the legal corporation of a physician group and shows all physicians who bill directly to that group, work at an office with an NPI owned by that group, are listed as a member of the group by the CMS physician compare file, or have been approved to submit Medicare part A/B claims through the group in the CMS PECOS file.  
+
 While physician groups are legally distinct corporations, they may be owned or tightly affiliated to health systems.  Healthbase identifies ownership by showing a score of '100' between a health system and a hospital.  Healthbase shows other types of relationships with a score of less than 100.  In those cases, claims data indicates that patient activity is occurring in a hospital or other institution owned by a health system but being billed directly to a physician group for the professional portion of the claim.  This indicates a direct contractual relationship between the health system for the group to provide physician services at the location.
 
 

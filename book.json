@@ -2,5 +2,5 @@
     "root": "docs",
     "title": "Healthbase Knowledgebase",
     "description": "This knowledgebase has articles that help you get familiar with Healthbase and use it to your full advantage",
-    "plugins": ["copy-code-button", "url-embed"]
+    "plugins": ["copy-code-button"]
 }

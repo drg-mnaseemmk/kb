@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Refresh status](refreshstatus.md)
 
 ## Healthbase Relational Database
 

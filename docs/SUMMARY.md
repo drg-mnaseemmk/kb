@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Refresh status](refreshstatus.md)
 
 ## Healthbase Relational Database
 
@@ -18,3 +17,5 @@
 * [Filters](healthbase-web-app/web_app_filters.md)
 * [Score](healthbase-web-app/web_app_score.md)
 * [Affiliations](healthbase-web-app/web_app_affiliations.md)
+
+* [Data update schedule](data_update_schedule.md.md)

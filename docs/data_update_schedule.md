@@ -1,5 +1,7 @@
-## Data update schedule
+## Data update status
 
-Healthbase aggregates data from multiple sources, both public and private data sets. The [attached document](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCK5kSf2oBK-RNKRHDVG3VDkkdECEOXVnU7hSCNGgXrOXmB-gD2lvzYDjajxGCVYTw8C_8jS56aG9z/pub?output=pdf) lists the update frequency and last update date for all major tables on Healthbase.
+Healthbase aggregates data from multiple sources, both public and private data sets. The table below lists the last update date for all major tables on Healthbase.
 
-[Healthbase data update.pdf](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCK5kSf2oBK-RNKRHDVG3VDkkdECEOXVnU7hSCNGgXrOXmB-gD2lvzYDjajxGCVYTw8C_8jS56aG9z/pub?output=pdf)
+<iframe id="last-update-iframe" src="https://app.gethealthbase.com/refreshes/status/iframe/" width="100%" height="500" title="Last table update">
+    <p>View the current <a href="https://app.gethealthbase.com/refreshes/status/" title="Data update status">data update status</a></p>
+</iframe>

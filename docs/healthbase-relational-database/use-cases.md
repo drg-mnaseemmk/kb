@@ -105,3 +105,4 @@ All tables in Healthbase are connected through a `healthbase_id`. The `entityloo
 * We'll have a list of HCPs which are part of the HCOs
 
 ![Use case example 3](https://raw.githubusercontent.com/CompileInc/healthbase-knowledge-base/master/docs/images/use_case_3.png)
+

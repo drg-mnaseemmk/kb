@@ -26,7 +26,7 @@ Affiliations follow a hierarchical graph structure. As the figure below shows, r
 If you flatten this out as links, it looks like the table below. Healthbase’s affiliations tables are based on this flattened link structure
 
 | node\_1 | node\_2 | score |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | a | h | 30 |
 | b | h | 90 |
 | c | h | 30 |

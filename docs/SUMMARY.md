@@ -12,11 +12,14 @@
 
 * [Cypher](healthbase-graph-database/cypher.md)
 
-### Healthbase Web App
+## Healthbase Web App
+
 * [Entity Types](healthbase-web-app/entity_types.md)
 * [Filters](healthbase-web-app/web_app_filters.md)
 * [Score](healthbase-web-app/web_app_score.md)
 * [Affiliations](healthbase-web-app/web_app_affiliations.md)
 
-### Data updates
-* [Data update schedule](data_update_schedule.md)
+## Data updates
+
+* [Data update schedule](data-updates/data_update_schedule.md)
+

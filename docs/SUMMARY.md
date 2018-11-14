@@ -18,6 +18,7 @@
 * [Filters](healthbase-web-app/web_app_filters.md)
 * [Score](healthbase-web-app/web_app_score.md)
 * [Affiliations](healthbase-web-app/web_app_affiliations.md)
+* [IDN Profiles](healthbase-web-app/idn-profiles.md)
 
 ## Data updates
 

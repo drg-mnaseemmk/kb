@@ -22,5 +22,6 @@
 
 ## Data updates
 
+* [Database changelog](data-updates/database_changelog.md)
 * [Data update schedule](data-updates/data_update_schedule.md)
 

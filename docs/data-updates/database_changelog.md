@@ -5,7 +5,7 @@
 - Under Healthsystem details page in web app , we show all active facilities owned/affiliated by them and also the practitioners affiliated with them
 - Added ability to give feedback on specific data elements
 
-** Data enhancements **
+### DATA ENHANCEMENTS
 - Improved filtering for physicians classification and specialization
 
 ---
@@ -19,7 +19,7 @@
 - Health System profile metrics and profile information documents are added to frontend
 - ACOs are added to frontend
 
-** Data enhancements **
+### DATA ENHANCEMENTS
 - Parent affiliations enhancements via algorithmic improvements
 
 ---
@@ -30,7 +30,7 @@
 
 - Added filtering and search functionality to web app at app.gethealthbase.com
 
-** Data enhancements **
+### DATA ENHANCEMENTS
 - Detailed sub IDN structures for all health systems in the database
 
 
@@ -40,7 +40,7 @@
 
 - Released a frontend app (app.gethealthbase.com) which displays all major facilities, physicians with their affiliations
 
-** Data enhancements **
+### DATA ENHANCEMENTS
 - Improved parent roll ups of facilities and practitioners
 - Enhancement to affiliation scoring algorithm
 

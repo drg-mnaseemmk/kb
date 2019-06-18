@@ -1,3 +1,22 @@
+## 2019-06-18
+# Addition of executives, algorithm improvements and more
+### NEW
+
+- Added executives to the web app as part of affiliations block
+- Included structured titles for executives as VP, C-level, Director and Manager
+- Added the ability to search for executives who are also physicians
+- Added an executive listing page to search and filter executives by name or facility name
+- Added alerts for non-supported browsers (following are supported - Chrome, Firefox and Edge)
+- Added segmentation tool link in the IDN analyzer listing page
+
+### DATA ENHANCEMENTS
+- Scoring enhancements via algorithmic improvements
+- Scoring changes to show only strong and very strong relationships in web app for health systems
+- Updated ACO data which also gets refreshed much more frequently
+
+---
+
+
 ## 2018-11-12
 # Enhanced web app with all active facilities
 ### NEW

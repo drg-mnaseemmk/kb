@@ -14,7 +14,7 @@ before_script:
 test:
   stage: test
   script:
-    - kb.gethealthbase.com/docs build . public # build to public path
+    - gitbook build . public # build to public path
   only:
     - branches # this job will affect every branch except 'master'
   except:
@@ -24,7 +24,7 @@ test:
 pages:
   stage: deploy
   script:
-    - kb.gethealthbase.com/docs build . public # build to public path
+    - gitbook build . public # build to public path
   artifacts:
     paths:
       - public

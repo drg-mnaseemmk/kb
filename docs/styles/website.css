@@ -1,0 +1,56 @@
+body {
+  background: #333
+}
+a, a:hover, a:focus {
+  color: #722774 !important;
+}
+.book-header {
+  display: none
+}
+.brand-header, .book, .brand-footer {
+  width: 80%;
+  margin: auto;
+}
+.brand-header, .brand-footer {
+  margin: 15px auto;
+}
+.brand, .brand:hover, .brand:focus {
+  font-size: 32px;
+  font-weight: bold;
+  background: #722774;
+  display: inline-block;
+  color: #FFF !important;
+  padding: 0 10px;
+}
+.brand-footer {
+  text-align: center;
+  color: #AAA;
+}
+.brand-footer a, .brand-footer a:hover, .brand-footer a:focus {
+  color: #FFF !important; 
+}
+.book {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.navigation.navigation-next,
+.navigation.navigation-prev {
+  display: none;
+}
+
+.gitbook-link {
+    display: none !important;
+}
+
+#book-search-input {
+  margin: 20px 10px 10px 10px;
+  padding: 0;
+  border: 1px solid rgba(0,0,0,.07);
+  border-radius: 20px;
+}
+
+.markdown-section code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
